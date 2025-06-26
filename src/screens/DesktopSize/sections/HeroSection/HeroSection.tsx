@@ -45,7 +45,7 @@ export const HeroSection = (): JSX.Element => {
 
             <div className=" sm:w-[80%] !h-full flex items-end bg-[url(/blur-gradient-3.svg)] ">
               <BlurFade delay={1.0} className="">
-                <img src={"/imgInterfacePieces.png"} alt="UI Cards" className="w-full h-full " />
+                <img src={"/imgInterfacePieces.png"} alt="UI Cards" className="w-full h-[260px]  sm:h-full " />
               </BlurFade>
             </div>
           </div>
