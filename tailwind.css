@@ -1,0 +1,180 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --bluebright: rgba(48, 115, 215, 1);
+  --bluedark: rgba(31, 92, 184, 1);
+  --bluelight: rgba(101, 161, 250, 1);
+  --bwbw-6: rgba(140, 140, 140, 1);
+  --dark: rgba(0, 0, 0, 1);
+  --gray: rgba(86, 87, 92, 1);
+  --graybluedarkerbg: rgba(235, 243, 255, 1);
+  --graybluelightbg: rgba(245, 248, 251, 1);
+  --h1-font-family: "PT Sans Caption Bold", Helvetica;
+  --h1-font-size: 100px;
+  --h1-font-style: normal;
+  --h1-font-weight: 700;
+  --h1-letter-spacing: 0px;
+  --h1-line-height: 114px;
+  --h2-font-family: "PT Sans Caption", Helvetica;
+  --h2-font-size: 64px;
+  --h2-font-style: normal;
+  --h2-font-weight: 700;
+  --h2-letter-spacing: 0px;
+  --h2-line-height: 120.00000762939453%;
+  --h3-font-family: "PT Sans Caption", Helvetica;
+  --h3-font-size: 42px;
+  --h3-font-style: normal;
+  --h3-font-weight: 700;
+  --h3-letter-spacing: 0px;
+  --h3-line-height: 140%;
+  --h4-font-family: "PT Sans Caption", Helvetica;
+  --h4-font-size: 32px;
+  --h4-font-style: normal;
+  --h4-font-weight: 700;
+  --h4-letter-spacing: 0px;
+  --h4-line-height: 140%;
+  --h5-font-family: "PT Sans Caption", Helvetica;
+  --h5-font-size: 24px;
+  --h5-font-style: normal;
+  --h5-font-weight: 700;
+  --h5-letter-spacing: 0px;
+  --h5-line-height: 140%;
+  --kfu-style212121: rgba(33, 33, 33, 1);
+  --kfu-styleblue-11f5cb8: rgba(31, 92, 184, 1);
+  --kfu-stylebluebuttondefault: rgba(48, 115, 215, 1);
+  --kfu-stylebluebuttonhover: rgba(31, 92, 184, 1);
+  --kfu-stylefffff: rgba(255, 255, 255, 1);
+  --light-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.05);
+  --shadow-soft: 0px 6px 33.5px 0px rgba(0, 0, 0, 0.08);
+  --t2-font-family: "PT Sans", Helvetica;
+  --t2-font-size: 20px;
+  --t2-font-style: normal;
+  --t2-font-weight: 400;
+  --t2-letter-spacing: 0px;
+  --t2-line-height: 150%;
+  --t3-bold-font-family: "PT Sans", Helvetica;
+  --t3-bold-font-size: 16px;
+  --t3-bold-font-style: normal;
+  --t3-bold-font-weight: 700;
+  --t3-bold-letter-spacing: 0px;
+  --t3-bold-line-height: 140%;
+  --t3-font-family: "PT Sans", Helvetica;
+  --t3-font-size: 16px;
+  --t3-font-style: normal;
+  --t3-font-weight: 400;
+  --t3-letter-spacing: 0px;
+  --t3-line-height: 140%;
+  --white: rgba(255, 255, 255, 1);
+  --x-3: rgba(255, 255, 255, 1);
+  --x-6: rgba(0, 0, 0, 1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 0 0% 3.9%;
+
+    --radius: 0.5rem;
+
+    --chart-1: 12 76% 61%;
+
+    --chart-2: 173 58% 39%;
+
+    --chart-3: 197 37% 24%;
+
+    --chart-4: 43 74% 66%;
+
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 0 0% 83.1%;
+
+    --radius: 0.5rem;
+
+    --chart-1: 220 70% 50%;
+
+    --chart-2: 160 60% 45%;
+
+    --chart-3: 30 80% 55%;
+
+    --chart-4: 280 65% 60%;
+
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
