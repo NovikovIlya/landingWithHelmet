@@ -112,7 +112,7 @@ export const HeroSection = (): JSX.Element => {
             <div 
               className="sm:w-[80%] !h-full flex items-end"
               style={{
-                backgroundImage: 'url(/blur-gradient-3.svg)',
+               
                 // Safari фиксы для градиента
                 WebkitBackgroundSize: 'cover',
                 backgroundSize: 'cover',
