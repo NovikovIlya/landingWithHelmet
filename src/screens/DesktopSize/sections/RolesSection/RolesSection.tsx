@@ -21,7 +21,7 @@ export const RolesSection = (): JSX.Element => {
     {
       id: 2,
       title: "Студент",
-      image: "/mask-group-4.png",
+      image: "/mask-group-1.png",
       description: [
         "Участие в олимпиадах, научных конференциях школьников под эгидой КФУ (в т.ч. для иностранных граждан)",
         "Подготовка к ОГЭ/ЕГЭ",
@@ -57,7 +57,7 @@ export const RolesSection = (): JSX.Element => {
     {
       id: 5,
       title: "Школьник",
-      image: "/mask-group-1.png",
+      image: "/mask-group-4.png",
       description: [
         "Участие в олимпиадах, научных конференциях школьников под эгидой КФУ (в т.ч. для иностранных граждан)",
         "Подготовка к ОГЭ/ЕГЭ",

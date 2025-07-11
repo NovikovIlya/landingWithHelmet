@@ -158,7 +158,7 @@ export const RoadmapSection = () => {
        <h2 className="font-h3 text-dark text-3xl md:text-[42px] font-bold text-center leading-[140%] mb-[53px]">
             
              <BlurFade delay={0.5} inView>
-              Этапы развития проекта
+             Этапы развития проекта <br className='hidden sm:block'></br> Единого личного кабинета
               </BlurFade>
           </h2>
       {/* Timeline indicator */}

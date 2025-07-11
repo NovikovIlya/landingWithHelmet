@@ -4,7 +4,7 @@ export const FooterSection = (): JSX.Element => {
   const contactInfo = [
     { email: "dis@kpfu.ru", phone: "+7 (843) 206 50 84" },
     {
-      address: "420008, г. Казань, ул. Нужина 1/37",
+      address: "420008, г. Казань, ул. Нужина 1/37, кабинет 216",
       hours: "пн — пт, с 8 до 17 часов (обед с 12 до 13)",
     },
   ];
