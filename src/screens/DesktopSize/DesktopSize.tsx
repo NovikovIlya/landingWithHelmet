@@ -63,7 +63,7 @@ export const DesktopSize = (): JSX.Element => {
         <title>Электронный университет</title>
         <meta name="description" content="KFU-STUDY" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Ziz0ZBJCNPY_FEcLktITkfShgwPGXCCWJg&s" />
+        <link rel="icon" href="/favicon.ico" />
 
       </Helmet>
     <div className=" flex flex-col items-center w-full">
