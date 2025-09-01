@@ -80,8 +80,8 @@ export const HeroSection = (): JSX.Element => {
               <BlurFade delay={0.5}>
                 <div style={{ fontFamily: "PT Sans" }} className="flex flex-col sm:items-center lg:items-start gap-8 min-w-[100%]">
                   <h1 className="font-h2 mt-10 sm:mt-0 text-4xl lg:text-[64px] text-white text-start ml-[10%] sm:ml-0">
-                    <div className="sm:mb-5 text-4xl lg:text-[54px] text-white font-bold">Единый</div>
-                    <div className="font-h2 text-4xl sm:text-[54px] text-white font-bold">личный кабинет</div>
+                    <div className="sm:mb-5 text-4xl lg:text-[50px] text-white font-bold">Единый</div>
+                    <div className="font-h2 text-4xl sm:text-[50px] text-white font-bold">личный кабинет</div>
                   </h1>
                   <p className="text-white text-lg lg:text-xl leading-relaxed max-w-[529px] pt-2 flex text-start justify-center">
                     <div className="text-white sm:text-start text-[18px] sm:text-lg leading-relaxed max-w-[80%] sm:max-w-[529px] font-light">
