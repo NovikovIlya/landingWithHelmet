@@ -44,9 +44,25 @@ const CookieConsent = () => {
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg border-t border-gray-200 p-4 md:p-6 z-50 m-4 rounded-xl animate-fade-in">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <p className="text-gray-600 text-sm md:text-base flex-1">
+        <p 
+          className="flex-1"
+          style={{
+            fontFamily: '"PT Sans"',
+            fontFeatureSettings: '"calt", "rlig"',
+            fontSize: '18px',
+            fontVariationSettings: 'normal',
+            fontWeight: 300,
+           
+            lineHeight: '28px',
+            color: '#6B7280' // сохраняем серый цвет
+          }}
+        >
          Продолжая пользоваться сайтом, вы соглашаетесь на обработку файлов cookie и других пользовательских данных в соответствии с{' '}
-          <a href="https://kpfu.ru/portal/docs/F722252292/pd_policy.pdf" className="text-blue-500 hover:text-blue-600">
+          <a 
+            href="https://kpfu.ru/portal/docs/F722252292/pd_policy.pdf" 
+            className="text-blue-500 hover:text-blue-600"
+            style={{ fontWeight: 'inherit' }} // наследуем вес шрифта от родителя
+          >
            политикой конфиденциальности
           </a>
           . Заблокировать использование cookies сайтом можно в настройках браузера.
@@ -54,6 +70,7 @@ const CookieConsent = () => {
         <Button
           onClick={handleAccept}
           type='primary'
+          size='large'
           className=""
         >
           Понятно
