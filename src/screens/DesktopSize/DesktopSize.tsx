@@ -146,11 +146,11 @@ export const DesktopSize = (): JSX.Element => {
                 </ul>
               </nav>
 
-              <Button
+              {/* <Button
                 className="w-full px-[38px] py-[15px] h-[50px] bg-bluebright rounded-[30px] font-t3-bold text-white mt-8"
                 onClick={() => setIsMenuOpen(false)}>
                 Протестировать
-              </Button>
+              </Button> */}
             </div>
           </div>
 
