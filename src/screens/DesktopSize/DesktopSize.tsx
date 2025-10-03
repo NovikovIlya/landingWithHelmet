@@ -16,6 +16,7 @@ import { X } from "lucide-react";
 import { Link } from "react-scroll";
 import { BlurFade } from "../../components/magicui/blur-fade";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import CookieConsent from "../../components/ui/CookieConsent";
 
 
 
@@ -60,10 +61,11 @@ export const DesktopSize = (): JSX.Element => {
   <>
     <HelmetProvider>
       <Helmet>
-        <title>Электронный университет</title>
-        <meta name="description" content="KFU-STUDY" />
+        <title>Единый личный кабинет КФУ</title>
+        <meta name="description" content="Проект реализации цифровой платформы, которая упрощает взаимодействие всех категорий пользователей с университетом и его ресурсами" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="keywords" content="образование, университет, электронный университет, KFU, онлайн обучение, стажировка, Личный кабинет, ДИС, проекты КФУ" />
 
       </Helmet>
     <div className=" flex flex-col items-center w-full">
@@ -191,6 +193,7 @@ export const DesktopSize = (): JSX.Element => {
           {" "}
           <FooterSection />
         </BlurFade>
+        <CookieConsent/>
       </main>
     </div>
     </HelmetProvider>
